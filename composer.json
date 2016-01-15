@@ -1,5 +1,5 @@
 {
-	"name": "xethron/migrations-generator",
+	"name": "xengine/migrations-generator",
 	"description": "Generates Laravel Migrations from an existing database",
 	"keywords": ["laravel", "migration", "generator", "migrations", "artisan"],
 	"license": "MIT",
@@ -12,8 +12,8 @@
 	"require": {
 		"php": ">=5.4.0",
 		"illuminate/support": ">=4.1",
-		"way/generators": "dev-feature/laravel-five-stable",
-		"doctrine/dbal": "~2.4"
+		"laracasts/generators": "dev-master",
+		"doctrine/dbal": "^2.5"
 	},
 	"repositories": [
 		{
@@ -28,8 +28,6 @@
 	},
 	"minimum-stability": "dev",
 	"require-dev": {
-		"phpunit/phpunit": ">=4.0.0",
-		"mockery/mockery": ">=0.9.0",
 		"illuminate/cache": ">=4.1.0",
 		"illuminate/console": ">=4.1.0"
 	}
