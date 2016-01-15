@@ -1,15 +1,15 @@
 <?php namespace Xethron\MigrationsGenerator;
 
-use Way\Generators\Commands\GeneratorCommand;
+use Laracasts\Generators\Commands\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
-use Way\Generators\Generator;
-use Way\Generators\Filesystem\Filesystem;
-use Way\Generators\Compilers\TemplateCompiler;
+use Laracasts\Generators\Generator;
+use Laracasts\Generators\Filesystem\Filesystem;
+use Laracasts\Generators\Compilers\TemplateCompiler;
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 
-use Way\Generators\Syntax\DroppedTable;
+use Laracasts\Generators\Syntax\DroppedTable;
 
 use Xethron\MigrationsGenerator\Generators\SchemaGenerator;
 use Xethron\MigrationsGenerator\Syntax\AddToTable;
