@@ -10,10 +10,7 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4.0",
-		"illuminate/support": ">=4.1",
-		"laracasts/generators": "dev-master",
-		"doctrine/dbal": "^2.5"
+	
 	},
 	"repositories": [
 		{
@@ -26,9 +23,6 @@
 			"Xethron\\MigrationsGenerator": "src/"
 		}
 	},
-	"minimum-stability": "dev",
-	"require-dev": {
-		"illuminate/cache": ">=4.1.0",
-		"illuminate/console": ">=4.1.0"
-	}
+	"minimum-stability": "dev"
+
 }
